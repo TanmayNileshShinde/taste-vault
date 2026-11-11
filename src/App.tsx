@@ -9,7 +9,6 @@ import { DishList } from './components/DishList';
 import { WishlistSection } from './components/WishlistSection';
 import { NeverAgainList } from './components/NeverAgainList';
 import { AddOrderModal } from './components/AddOrderModal';
-import { ScreenshotDropHelper } from './components/ScreenshotDropHelper';
 import { Store, UtensilsCrossed, Sparkles, AlertOctagon } from 'lucide-react';
 
 const STORAGE_KEY = 'taste_vault_food_data_v1';
@@ -176,9 +175,6 @@ export const App: React.FC = () => {
 
         {/* Stats Metric Cards */}
         <StatsCards data={foodData} />
-
-        {/* How Screenshot Sync Works Banner */}
-        <ScreenshotDropHelper />
 
         {/* Navigation Tabs (Neumorphic Inset/Flat Pills) */}
         <div className="my-6 flex flex-wrap items-center gap-3">
