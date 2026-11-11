@@ -1,0 +1,274 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-11-11T19:00:00Z",
+  "restaurants": [
+    {
+      "id": "joeys-pizza",
+      "name": "Joey's Pizza",
+      "location": "Andheri West / Malad",
+      "cuisine": ["Pizza", "Italian", "Fast Food"],
+      "visitedCount": 3,
+      "lastVisited": "2026-11-04",
+      "overallRating": 4.8
+    },
+    {
+      "id": "charcoal-eats",
+      "name": "Charcoal Eats",
+      "location": "Chembur / Ghatkopar",
+      "cuisine": ["Biryani", "North Indian", "Rolls"],
+      "visitedCount": 2,
+      "lastVisited": "2026-10-28",
+      "overallRating": 4.2
+    },
+    {
+      "id": "cafe-madras",
+      "name": "Café Madras",
+      "location": "Matunga Circle",
+      "cuisine": ["South Indian", "Breakfast", "Filter Coffee"],
+      "visitedCount": 4,
+      "lastVisited": "2026-10-15",
+      "overallRating": 4.9
+    },
+    {
+      "id": "subway-ghatkopar",
+      "name": "Subway",
+      "location": "R City Mall, Ghatkopar",
+      "cuisine": ["Sandwiches", "Healthy", "Salads"],
+      "visitedCount": 2,
+      "lastVisited": "2026-09-30",
+      "overallRating": 3.7
+    },
+    {
+      "id": "the-boston-cupcakery",
+      "name": "The Boston Cupcakery",
+      "location": "Bandra West",
+      "cuisine": ["Bakery", "Desserts", "Cupcakes"],
+      "visitedCount": 1,
+      "lastVisited": "2026-09-12",
+      "overallRating": 4.6
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry-001",
+      "restaurantId": "joeys-pizza",
+      "restaurantName": "Joey's Pizza",
+      "orderDate": "2026-11-04",
+      "orderSource": "Dine-in",
+      "billTotal": 980,
+      "receiptNotes": "Friday night table with friends. Total loaded toppings.",
+      "items": [
+        {
+          "id": "item-101",
+          "name": "Meat Craver Signature 10\"",
+          "category": "Main Course",
+          "price": 540,
+          "rating": 5,
+          "verdict": "Loved It",
+          "doNotRepeat": true,
+          "notes": "Loaded with barbecue chicken, roast chicken, sausages and extra mozzarella. Top tier, but next time explore the Tornado Pizza!",
+          "tags": ["Non-Veg", "Cheesy", "Spicy", "Heavy"]
+        },
+        {
+          "id": "item-102",
+          "name": "Stuffed Garlic Bread",
+          "category": "Appetizer",
+          "price": 260,
+          "rating": 3.5,
+          "verdict": "Average",
+          "doNotRepeat": true,
+          "notes": "Decent cheese pull but quite dense. Skip this next time and try the Potato Wedges or Cheese Garlic Toast instead.",
+          "tags": ["Veg", "Sides", "Dense"]
+        },
+        {
+          "id": "item-103",
+          "name": "Peach Iced Tea",
+          "category": "Beverage",
+          "price": 180,
+          "rating": 4,
+          "verdict": "Good",
+          "doNotRepeat": false,
+          "notes": "Refreshing and chilled. Good palate cleanser with heavy pizza.",
+          "tags": ["Sweet", "Cold", "Drink"]
+        }
+      ]
+    },
+    {
+      "id": "entry-002",
+      "restaurantId": "charcoal-eats",
+      "restaurantName": "Charcoal Eats",
+      "orderDate": "2026-10-28",
+      "orderSource": "Swiggy",
+      "billTotal": 645,
+      "receiptNotes": "Ordered dinner via Swiggy. 35 mins delivery.",
+      "items": [
+        {
+          "id": "item-201",
+          "name": "Murgh Afghani Tikka Biryani",
+          "category": "Main Course",
+          "price": 389,
+          "rating": 4.5,
+          "verdict": "Loved It",
+          "doNotRepeat": true,
+          "notes": "Aromatic, succulent boneless chicken pieces with subtle cashew-cream marinade. Don't repeat: try their Paneer Makhani or Smoked Butter Chicken Biryani next.",
+          "tags": ["Biryani", "Creamy", "Boneless"]
+        },
+        {
+          "id": "item-202",
+          "name": "Dahi Ke Kebab (4 pcs)",
+          "category": "Appetizer",
+          "price": 256,
+          "rating": 4.0,
+          "verdict": "Good",
+          "doNotRepeat": true,
+          "notes": "Crispy outer crust with soft curd center. Good snack, try Galouti Kebab next time.",
+          "tags": ["Veg", "Crispy", "Starter"]
+        }
+      ]
+    },
+    {
+      "id": "entry-003",
+      "restaurantId": "cafe-madras",
+      "restaurantName": "Café Madras",
+      "orderDate": "2026-10-15",
+      "orderSource": "Dine-in",
+      "billTotal": 310,
+      "receiptNotes": "Sunday morning breakfast. 15 min wait in queue.",
+      "items": [
+        {
+          "id": "item-301",
+          "name": "Rava Masala Dosa",
+          "category": "Breakfast",
+          "price": 110,
+          "rating": 5,
+          "verdict": "Loved It",
+          "doNotRepeat": true,
+          "notes": "Super crisp golden lattice texture with potato masala and fresh coconut chutney. 10/10. Try the Set Dosa or Upma Podi next time!",
+          "tags": ["Crispy", "South Indian", "Veg", "Breakfast"]
+        },
+        {
+          "id": "item-302",
+          "name": "Filter Kaapi",
+          "category": "Beverage",
+          "price": 50,
+          "rating": 5,
+          "verdict": "Loved It",
+          "doNotRepeat": false,
+          "notes": "Traditional brass tumbler froth. Must order every single visit, don't skip!",
+          "tags": ["Hot", "Coffee", "Signature"]
+        },
+        {
+          "id": "item-303",
+          "name": "Pineapple Sheera",
+          "category": "Dessert",
+          "price": 85,
+          "rating": 4.5,
+          "verdict": "Good",
+          "doNotRepeat": true,
+          "notes": "Pure ghee flavor with real pineapple chunks. Sweet and rich. Next time try Mysore Pak.",
+          "tags": ["Sweet", "Ghee", "Dessert"]
+        }
+      ]
+    },
+    {
+      "id": "entry-004",
+      "restaurantId": "subway-ghatkopar",
+      "restaurantName": "Subway",
+      "orderDate": "2026-09-30",
+      "orderSource": "Zomato",
+      "billTotal": 485,
+      "receiptNotes": "Late lunch at desk.",
+      "items": [
+        {
+          "id": "item-401",
+          "name": "Roast Chicken Sub 6-inch (Parmesan Oregano)",
+          "category": "Main Course",
+          "price": 319,
+          "rating": 3.8,
+          "verdict": "Good",
+          "doNotRepeat": true,
+          "notes": "Too much southwest chipotle sauce made it soggy. Try Italian B.M.T or Teriyaki next time on multigrain toasted extra crisp.",
+          "tags": ["Sub", "Chicken", "Quick"]
+        },
+        {
+          "id": "item-402",
+          "name": "Double Dark Chocolate Cookie",
+          "category": "Dessert",
+          "price": 75,
+          "rating": 4.5,
+          "verdict": "Loved It",
+          "doNotRepeat": false,
+          "notes": "Soft-baked, chewy and rich chocolate chips. Always a solid add-on.",
+          "tags": ["Cookie", "Chocolate", "Sweet"]
+        }
+      ]
+    },
+    {
+      "id": "entry-005",
+      "restaurantId": "the-boston-cupcakery",
+      "restaurantName": "The Boston Cupcakery",
+      "orderDate": "2026-09-12",
+      "orderSource": "Takeaway",
+      "billTotal": 420,
+      "receiptNotes": "Celebration dessert run.",
+      "items": [
+        {
+          "id": "item-501",
+          "name": "Nutella Volcano Lava Cupcake",
+          "category": "Dessert",
+          "price": 210,
+          "rating": 4.8,
+          "verdict": "Loved It",
+          "doNotRepeat": true,
+          "notes": "Molten warm Nutella burst inside soft chocolate sponge. Super rich. Try Red Velvet or Blueberry Cheesecake next time.",
+          "tags": ["Nutella", "Chocolate", "Dessert"]
+        },
+        {
+          "id": "item-502",
+          "name": "Salted Caramel Cupcake",
+          "category": "Dessert",
+          "price": 190,
+          "rating": 4.2,
+          "verdict": "Good",
+          "doNotRepeat": true,
+          "notes": "Nice balance of sea salt and sweet caramel frosting. Try Belgian Dark Chocolate next time.",
+          "tags": ["Caramel", "Sweet"]
+        }
+      ]
+    }
+  ],
+  "wishlist": [
+    {
+      "id": "wish-001",
+      "restaurantName": "Joey's Pizza",
+      "restaurantId": "joeys-pizza",
+      "itemName": "Tornado Chicken Pizza (Spicy Ghost Chili Infusion)",
+      "targetPrice": 580,
+      "reasonToTry": "Heard rave reviews about the smoky sauce and sausage layering."
+    },
+    {
+      "id": "wish-002",
+      "restaurantName": "Joey's Pizza",
+      "restaurantId": "joeys-pizza",
+      "itemName": "Cheese Garlic Toast Special",
+      "targetPrice": 220,
+      "reasonToTry": "Alternative to stuffed bread which was too doughy."
+    },
+    {
+      "id": "wish-003",
+      "restaurantName": "Charcoal Eats",
+      "restaurantId": "charcoal-eats",
+      "itemName": "Smoked Butter Chicken Biryani",
+      "targetPrice": 410,
+      "reasonToTry": "Top-rated bestseller on Swiggy with over 10k reviews."
+    },
+    {
+      "id": "wish-004",
+      "restaurantName": "Café Madras",
+      "restaurantId": "cafe-madras",
+      "itemName": "Podi Tossed Idli & Mysore Pak",
+      "targetPrice": 160,
+      "reasonToTry": "Must try their house-made gunpowder ghee podi."
+    }
+  ]
+}
