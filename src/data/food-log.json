@@ -1,7 +1,21 @@
 {
-  "version": "2.0.0",
-  "lastUpdated": "2026-11-11T20:39:33Z",
+  "version": "2.1.0",
+  "lastUpdated": "2026-11-11T17:34:06.869Z",
   "restaurants": [
+    {
+      "id": "mario-waffles",
+      "name": "Mario Waffles",
+      "location": "Dine-in / Outlet",
+      "cuisine": [
+        "Waffles",
+        "Desserts",
+        "Ice Cream",
+        "Bakery"
+      ],
+      "visitedCount": 1,
+      "lastVisited": "2026-11-01",
+      "overallRating": 4.6
+    },
     {
       "id": "faasos",
       "name": "Faasos",
@@ -17,6 +31,49 @@
     }
   ],
   "entries": [
+    {
+      "id": "entry-mario-waffles-1794418446869",
+      "restaurantId": "mario-waffles",
+      "restaurantName": "Mario Waffles",
+      "orderDate": "2026-11-01",
+      "orderSource": "Dine-in",
+      "billTotal": 288,
+      "receiptNotes": "Menu card log (Belgian & Chocolate Overload Pocket Waffles)",
+      "items": [
+        {
+          "id": "item-mario-1",
+          "name": "Belgian Waffle (Pocket Waffle)",
+          "category": "Dessert",
+          "price": 139,
+          "rating": 4.5,
+          "verdict": "Loved It",
+          "doNotRepeat": true,
+          "notes": "Classic warm pocket waffle with rich chocolate spread. Do not repeat — explore Kit-Kat Nutella or Biscoff next!",
+          "tags": [
+            "Waffle",
+            "Chocolate",
+            "Pocket Waffle",
+            "Dessert"
+          ]
+        },
+        {
+          "id": "item-mario-2",
+          "name": "Chocolate Overload Waffle",
+          "category": "Dessert",
+          "price": 149,
+          "rating": 4.8,
+          "verdict": "Loved It",
+          "doNotRepeat": true,
+          "notes": "Chocolate base waffle loaded with multi-layer chocolate. Rich and decadent.",
+          "tags": [
+            "Chocolate Base",
+            "Overload",
+            "Decadent",
+            "Dessert"
+          ]
+        }
+      ]
+    },
     {
       "id": "entry-faasos-223393699",
       "restaurantId": "faasos",
@@ -60,5 +117,30 @@
       ]
     }
   ],
-  "wishlist": []
+  "wishlist": [
+    {
+      "id": "wish-mario-1",
+      "restaurantName": "Mario Waffles",
+      "restaurantId": "mario-waffles",
+      "itemName": "Kit-Kat Nutella Waffle",
+      "targetPrice": 169,
+      "reasonToTry": "Try next: crunchy Kit-Kat with Nutella on chocolate base."
+    },
+    {
+      "id": "wish-mario-2",
+      "restaurantName": "Mario Waffles",
+      "restaurantId": "mario-waffles",
+      "itemName": "Biscoff Waffle",
+      "targetPrice": 169,
+      "reasonToTry": "Try next: Lotus Biscoff spread with caramelized biscuit crunch."
+    },
+    {
+      "id": "wish-mario-3",
+      "restaurantName": "Mario Waffles",
+      "restaurantId": "mario-waffles",
+      "itemName": "Black Charcoal Bubble Waffle",
+      "targetPrice": 160,
+      "reasonToTry": "Try next: unique bubble waffle texture."
+    }
+  ]
 }
