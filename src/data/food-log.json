@@ -1,12 +1,30 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-11-11T19:00:00Z",
+  "lastUpdated": "2026-11-11T15:09:55.083Z",
   "restaurants": [
+    {
+      "id": "faasos",
+      "name": "Faasos",
+      "location": "Delivery / Cloud Kitchen",
+      "cuisine": [
+        "Wraps",
+        "Rolls",
+        "Fast Food",
+        "North Indian"
+      ],
+      "visitedCount": 1,
+      "lastVisited": "2026-11-11",
+      "overallRating": 4.5
+    },
     {
       "id": "joeys-pizza",
       "name": "Joey's Pizza",
       "location": "Andheri West / Malad",
-      "cuisine": ["Pizza", "Italian", "Fast Food"],
+      "cuisine": [
+        "Pizza",
+        "Italian",
+        "Fast Food"
+      ],
       "visitedCount": 3,
       "lastVisited": "2026-11-04",
       "overallRating": 4.8
@@ -15,7 +33,11 @@
       "id": "charcoal-eats",
       "name": "Charcoal Eats",
       "location": "Chembur / Ghatkopar",
-      "cuisine": ["Biryani", "North Indian", "Rolls"],
+      "cuisine": [
+        "Biryani",
+        "North Indian",
+        "Rolls"
+      ],
       "visitedCount": 2,
       "lastVisited": "2026-10-28",
       "overallRating": 4.2
@@ -24,7 +46,11 @@
       "id": "cafe-madras",
       "name": "Café Madras",
       "location": "Matunga Circle",
-      "cuisine": ["South Indian", "Breakfast", "Filter Coffee"],
+      "cuisine": [
+        "South Indian",
+        "Breakfast",
+        "Filter Coffee"
+      ],
       "visitedCount": 4,
       "lastVisited": "2026-10-15",
       "overallRating": 4.9
@@ -33,7 +59,11 @@
       "id": "subway-ghatkopar",
       "name": "Subway",
       "location": "R City Mall, Ghatkopar",
-      "cuisine": ["Sandwiches", "Healthy", "Salads"],
+      "cuisine": [
+        "Sandwiches",
+        "Healthy",
+        "Salads"
+      ],
       "visitedCount": 2,
       "lastVisited": "2026-09-30",
       "overallRating": 3.7
@@ -42,13 +72,60 @@
       "id": "the-boston-cupcakery",
       "name": "The Boston Cupcakery",
       "location": "Bandra West",
-      "cuisine": ["Bakery", "Desserts", "Cupcakes"],
+      "cuisine": [
+        "Bakery",
+        "Desserts",
+        "Cupcakes"
+      ],
       "visitedCount": 1,
       "lastVisited": "2026-09-12",
       "overallRating": 4.6
     }
   ],
   "entries": [
+    {
+      "id": "entry-1794409795083",
+      "restaurantId": "faasos",
+      "restaurantName": "Faasos",
+      "orderDate": "2026-11-11",
+      "orderSource": "EatSure / Faasos",
+      "billTotal": 283,
+      "receiptNotes": "CRN: #223393699 - Delivered",
+      "items": [
+        {
+          "id": "item-1794409795083-1",
+          "name": "Jalapeno Crispy Chicken Burger Wrap",
+          "category": "Fast Food",
+          "price": 139,
+          "rating": 4.2,
+          "verdict": "Good",
+          "doNotRepeat": true,
+          "notes": "Crispy fried chicken patty wrapped in flaky paratha with spicy pickled jalapenos and melted cheese spread.",
+          "tags": [
+            "Crispy",
+            "Spicy",
+            "Chicken",
+            "Wrap"
+          ]
+        },
+        {
+          "id": "item-1794409795083-2",
+          "name": "Smoked Butter Chicken Wrap",
+          "category": "Main Course",
+          "price": 144,
+          "rating": 4.6,
+          "verdict": "Loved It",
+          "doNotRepeat": true,
+          "notes": "Smoky tandoori chicken chunks tossed in rich, creamy makhani gravy wrapped in warm laccha bread.",
+          "tags": [
+            "Butter Chicken",
+            "Smoky",
+            "Creamy",
+            "Wrap"
+          ]
+        }
+      ]
+    },
     {
       "id": "entry-001",
       "restaurantId": "joeys-pizza",
@@ -67,7 +144,12 @@
           "verdict": "Loved It",
           "doNotRepeat": true,
           "notes": "Loaded with barbecue chicken, roast chicken, sausages and extra mozzarella. Top tier, but next time explore the Tornado Pizza!",
-          "tags": ["Non-Veg", "Cheesy", "Spicy", "Heavy"]
+          "tags": [
+            "Non-Veg",
+            "Cheesy",
+            "Spicy",
+            "Heavy"
+          ]
         },
         {
           "id": "item-102",
@@ -78,7 +160,11 @@
           "verdict": "Average",
           "doNotRepeat": true,
           "notes": "Decent cheese pull but quite dense. Skip this next time and try the Potato Wedges or Cheese Garlic Toast instead.",
-          "tags": ["Veg", "Sides", "Dense"]
+          "tags": [
+            "Veg",
+            "Sides",
+            "Dense"
+          ]
         },
         {
           "id": "item-103",
@@ -89,7 +175,11 @@
           "verdict": "Good",
           "doNotRepeat": false,
           "notes": "Refreshing and chilled. Good palate cleanser with heavy pizza.",
-          "tags": ["Sweet", "Cold", "Drink"]
+          "tags": [
+            "Sweet",
+            "Cold",
+            "Drink"
+          ]
         }
       ]
     },
@@ -111,18 +201,26 @@
           "verdict": "Loved It",
           "doNotRepeat": true,
           "notes": "Aromatic, succulent boneless chicken pieces with subtle cashew-cream marinade. Don't repeat: try their Paneer Makhani or Smoked Butter Chicken Biryani next.",
-          "tags": ["Biryani", "Creamy", "Boneless"]
+          "tags": [
+            "Biryani",
+            "Creamy",
+            "Boneless"
+          ]
         },
         {
           "id": "item-202",
           "name": "Dahi Ke Kebab (4 pcs)",
           "category": "Appetizer",
           "price": 256,
-          "rating": 4.0,
+          "rating": 4,
           "verdict": "Good",
           "doNotRepeat": true,
           "notes": "Crispy outer crust with soft curd center. Good snack, try Galouti Kebab next time.",
-          "tags": ["Veg", "Crispy", "Starter"]
+          "tags": [
+            "Veg",
+            "Crispy",
+            "Starter"
+          ]
         }
       ]
     },
@@ -144,7 +242,12 @@
           "verdict": "Loved It",
           "doNotRepeat": true,
           "notes": "Super crisp golden lattice texture with potato masala and fresh coconut chutney. 10/10. Try the Set Dosa or Upma Podi next time!",
-          "tags": ["Crispy", "South Indian", "Veg", "Breakfast"]
+          "tags": [
+            "Crispy",
+            "South Indian",
+            "Veg",
+            "Breakfast"
+          ]
         },
         {
           "id": "item-302",
@@ -155,7 +258,11 @@
           "verdict": "Loved It",
           "doNotRepeat": false,
           "notes": "Traditional brass tumbler froth. Must order every single visit, don't skip!",
-          "tags": ["Hot", "Coffee", "Signature"]
+          "tags": [
+            "Hot",
+            "Coffee",
+            "Signature"
+          ]
         },
         {
           "id": "item-303",
@@ -166,7 +273,11 @@
           "verdict": "Good",
           "doNotRepeat": true,
           "notes": "Pure ghee flavor with real pineapple chunks. Sweet and rich. Next time try Mysore Pak.",
-          "tags": ["Sweet", "Ghee", "Dessert"]
+          "tags": [
+            "Sweet",
+            "Ghee",
+            "Dessert"
+          ]
         }
       ]
     },
@@ -188,7 +299,11 @@
           "verdict": "Good",
           "doNotRepeat": true,
           "notes": "Too much southwest chipotle sauce made it soggy. Try Italian B.M.T or Teriyaki next time on multigrain toasted extra crisp.",
-          "tags": ["Sub", "Chicken", "Quick"]
+          "tags": [
+            "Sub",
+            "Chicken",
+            "Quick"
+          ]
         },
         {
           "id": "item-402",
@@ -199,7 +314,11 @@
           "verdict": "Loved It",
           "doNotRepeat": false,
           "notes": "Soft-baked, chewy and rich chocolate chips. Always a solid add-on.",
-          "tags": ["Cookie", "Chocolate", "Sweet"]
+          "tags": [
+            "Cookie",
+            "Chocolate",
+            "Sweet"
+          ]
         }
       ]
     },
@@ -221,7 +340,11 @@
           "verdict": "Loved It",
           "doNotRepeat": true,
           "notes": "Molten warm Nutella burst inside soft chocolate sponge. Super rich. Try Red Velvet or Blueberry Cheesecake next time.",
-          "tags": ["Nutella", "Chocolate", "Dessert"]
+          "tags": [
+            "Nutella",
+            "Chocolate",
+            "Dessert"
+          ]
         },
         {
           "id": "item-502",
@@ -232,7 +355,10 @@
           "verdict": "Good",
           "doNotRepeat": true,
           "notes": "Nice balance of sea salt and sweet caramel frosting. Try Belgian Dark Chocolate next time.",
-          "tags": ["Caramel", "Sweet"]
+          "tags": [
+            "Caramel",
+            "Sweet"
+          ]
         }
       ]
     }
@@ -269,6 +395,22 @@
       "itemName": "Podi Tossed Idli & Mysore Pak",
       "targetPrice": 160,
       "reasonToTry": "Must try their house-made gunpowder ghee podi."
+    },
+    {
+      "id": "wish-1794409795083-1",
+      "restaurantName": "Faasos",
+      "restaurantId": "faasos",
+      "itemName": "Signature Cheese Melt Chicken Wrap",
+      "targetPrice": 169,
+      "reasonToTry": "Try next instead of repeating: loaded with signature molten cheese sauce."
+    },
+    {
+      "id": "wish-1794409795083-2",
+      "restaurantName": "Faasos",
+      "restaurantId": "faasos",
+      "itemName": "Classic Mutton Boti Wrap",
+      "targetPrice": 199,
+      "reasonToTry": "Tender roasted mutton pieces with mint mayo."
     }
   ]
 }
