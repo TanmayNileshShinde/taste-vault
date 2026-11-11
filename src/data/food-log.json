@@ -1,6 +1,6 @@
 {
-  "version": "2.1.0",
-  "lastUpdated": "2026-11-11T17:34:06.869Z",
+  "version": "2.2.0",
+  "lastUpdated": "2026-11-11T17:36:45.970Z",
   "restaurants": [
     {
       "id": "mario-waffles",
@@ -37,7 +37,7 @@
       "restaurantName": "Mario Waffles",
       "orderDate": "2026-11-01",
       "orderSource": "Dine-in",
-      "billTotal": 288,
+      "billTotal": 437,
       "receiptNotes": "Menu card log (Belgian & Chocolate Overload Pocket Waffles)",
       "items": [
         {
@@ -69,6 +69,23 @@
             "Chocolate Base",
             "Overload",
             "Decadent",
+            "Dessert"
+          ]
+        },
+        {
+          "id": "item-mario-3",
+          "name": "Crunchy Cookies Waffle",
+          "category": "Dessert",
+          "price": 149,
+          "rating": 4.6,
+          "verdict": "Loved It",
+          "doNotRepeat": true,
+          "notes": "Chocolate base waffle with crushed crunchy cookie crumble and chocolate cream.",
+          "tags": [
+            "Waffle",
+            "Cookies",
+            "Crunchy",
+            "Chocolate Base",
             "Dessert"
           ]
         }
