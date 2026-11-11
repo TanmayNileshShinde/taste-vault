@@ -11,7 +11,7 @@ import { NeverAgainList } from './components/NeverAgainList';
 import { AddOrderModal } from './components/AddOrderModal';
 import { Store, UtensilsCrossed, Sparkles, AlertOctagon } from 'lucide-react';
 
-const STORAGE_KEY = 'taste_vault_food_data_v1';
+const STORAGE_KEY = 'taste_vault_food_data_v2';
 
 export const App: React.FC = () => {
   // Dark mode state
@@ -27,10 +27,14 @@ export const App: React.FC = () => {
   // Food log data state (localStorage cached or initial seed)
   const [foodData, setFoodData] = useState<FoodLogData>(() => {
     if (typeof window !== 'undefined') {
+      localStorage.removeItem('taste_vault_food_data_v1');
       const saved = localStorage.getItem(STORAGE_KEY);
       if (saved) {
         try {
-          return JSON.parse(saved);
+          const parsed = JSON.parse(saved);
+          if (parsed.version === '2.0.0') {
+            return parsed;
+          }
         } catch {
           // fallback to initialData
         }
